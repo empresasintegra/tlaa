@@ -1,0 +1,8 @@
+table{border-collapse:collapse}
+table td{font:12px monospace; border:1px solid; border-color: #D8D8D8; text-align:center; height:3em}
+#contEncCol{overflow:hidden; overflow-y:scroll; background:#CEE3F6; width:75em}
+#contEncFil{overflow:hidden; text-align: center; overflow-x:hidden; background:#ccc; height:8em}
+#contenedor{overflow:auto; text-align: center; width:75em; height:37em}
+#contenido{}
+.tabla td{border:1px solid; width:12em}
+.rell{width:7em; height:0; position:relative; text-align: center; top:-1em; z-index:-1; border:1px solid red}

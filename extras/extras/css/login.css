@@ -1,0 +1,110 @@
+body {
+	background: #222;
+	font: 12px/1.7em arial, sans-serif;
+	margin: 75px;
+}
+input[type="text"], input[type="password"], textarea, select {
+	font-family: Verdana, 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+	font-size: 12px;
+	color: #424242;
+	padding: 5px;
+	border: 1px solid #CCC;
+	outline: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+	-moz-transition: border .2s linear, box-shadow .2s linear;
+	-webkit-transition: border .2s linear, -webkit-box-shadow .2s linear;
+	behavior: url(PIE.htc);
+}
+body { background: #222; font: 12px/1.7em arial, sans-serif; margin: 75px; }
+
+#login { width: 400px; position: absolute; left: 50%; margin-left: -200px; }
+
+#login h1
+{
+/*	background: url(../images/logo.png) no-repeat 0 0;*/
+	width: 245px;
+	height: 32px;
+	line-height: 800px;
+	overflow: hidden;
+	margin: 0 auto .75em;	
+}
+
+#login_panel,#login_panel2
+{
+	background: #FFF;
+	width: 400px;
+	border: 1px solid #CCC;
+	overflow: hidden;
+	
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	behavior: url(PIE.htc);
+}
+
+#login_panel .login_fields,#login_panel2 .login_fields { padding: 22px 15px 15px; }
+	#login_panel .login_fields input, #login_panel2 .login_fields input { width: 355px; }
+
+#login_panel .field,#login_panel2 .login_fields { margin-bottom: 1.75em; }
+	#login_panel .field:last-child , #login_panel2 .field:last-child { margin-bottom: .85em; }
+	
+	#login_panel .field label , #login_panel2 .field label { font-weight: bold; color: #555; display: block; position: relative; } 	
+		#login_panel .field label small { position: absolute; right: 0; top: -2px; }
+			#login_panel .field label small a { color: #999; }
+
+#login .login_actions { background: #E8E8E8; width: auto; padding: 12px 15px; border-top: 1px dotted #CCC; }
+.btn {
+	font-size: 13px;
+	padding: 8px 12px;
+}
+#login_panel2 p{
+	padding: 10px;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.btn, .btn:visited {
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	line-height: normal;
+	color: white;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	border: none;
+	border-style: solid;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+	border-width: 1px;
+	behavior: url(PIE.htc);
+}
+
+.btn, .btn:visited {
+	background-color: #066ECD;
+	border-color: #0561B4;
+}
+.btn, .blue, .teal, .maroon, .purple, .black {
+	background-image: url(../img/btn-35.png);
+	background-position: 0 0;
+}
+small {
+	font-size: smaller;
+}

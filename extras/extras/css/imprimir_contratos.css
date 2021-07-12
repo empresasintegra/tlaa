@@ -1,0 +1,30 @@
+body{
+	background-color: #ebebeb;
+	padding:0;
+	margin:0;
+}
+.hoja{
+	padding:0;
+	margin:0;
+	width: 700px;
+/*	height: 906px;*/
+	height: 920px;
+	background-color: white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	position: relative;
+	float: left;
+	left: 50%;
+	margin-left: -350px;
+	border:1px solid #cacaca;
+}
+.cabeza{
+	width: 100%;
+	
+}
+.cabeza img{
+	width: 185px;
+}
+.cuerpo{
+	height: 820px;
+}

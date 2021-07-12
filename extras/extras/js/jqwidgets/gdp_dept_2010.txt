@@ -1,0 +1,7 @@
+Contactados,350,350,900
+Diponibilidad,250,350,900
+Certificacion,200,350,900
+Examenes,300,350,900
+Charla_Masso,240,350,900
+Contratos,200,350,900
+En_Planta,1,350,900

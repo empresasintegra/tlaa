@@ -1,0 +1,53 @@
+.circulito{
+	background: none repeat scroll 0px 0px;
+	font-size: 10px;
+	color: #FFF;
+	line-height: 0;
+	display: inline;
+	font-weight: bold;
+	padding: 1px 7px;
+	border-radius: 100px;
+}
+.circulito.rojo{
+	background-color: #B40404;
+}
+.circulito.verde{
+	background-color: #31902C;
+}
+
+.hover {
+  background: #D8DDF2;
+}
+
+.progressBar {
+        width: 200px;
+        height: 22px;
+        border: 1px solid #111;
+        background-color: #B40404;
+}
+ 
+.progressBar div {
+        height: 100%;
+        color: #fff;
+        text-align: right;
+        line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+        width: 0;
+        background-color: #31902C;
+}
+
+.default {
+background: #292929;
+border: 1px solid #111;
+border-radius: 5px;
+overflow: hidden;
+box-shadow: 0 0 5px #333;
+}
+
+.default div {
+background-color: #1a82f7;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0099FF), to(#1a82f7));
+background: -webkit-linear-gradient(top, #0099FF, #1a82f7);
+background: -moz-linear-gradient(top, #0099FF, #1a82f7);
+background: -ms-linear-gradient(top, #0099FF, #1a82f7);
+background: -o-linear-gradient(top, #0099FF, #1a82f7);
+}

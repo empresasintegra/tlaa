@@ -1,0 +1,1 @@
+<?php file_get_contents('http://tla.integraest.cl/cron/cierre_diario'); ?> 
